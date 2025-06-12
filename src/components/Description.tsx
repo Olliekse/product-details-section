@@ -15,7 +15,7 @@ function Description() {
         </svg>
       </div>
       <div className="border-b border-solid border-neutral-200 pb-[32px] mb-[32px]">
-        <ul className="list-disc text-neutral-600 pl-6 w-[263px]">
+        <ul className="list-disc text-neutral-600 pl-6 min-[375px]:w-[263px] min-[768px]:w-full">
           <li>
             <p>Designed for comfort and durability.</p>
           </li>
@@ -47,7 +47,7 @@ function Description() {
         </svg>
       </div>
       <div className="border-b border-solid border-neutral-200 pb-[32px] mb-[32px]">
-        <ul className="list-disc text-neutral-600 pl-6 w-[263px]">
+        <ul className="list-disc text-neutral-600 pl-6 min-[375px]:w-[263px] min-[768px]:w-full">
           <li>
             <p>Machine wash cold on a gentle cycle.</p>
           </li>
@@ -76,7 +76,7 @@ function Description() {
         </svg>
       </div>
       <div>
-        <ul className="list-disc text-neutral-600 pl-6 w-[263px]">
+        <ul className="list-disc text-neutral-600 pl-6 min-[375px]:w-[263px] min-[768px]:w-full">
           <li>
             <p>
               Free standard shipping on all orders - no minimum spend required.

@@ -10,7 +10,7 @@ import Description from "./components/Description";
 
 function App() {
   return (
-    <div className="py-[64px] px-[32px]">
+    <div className="min-[375px]:py-[64px] min-[375px]:px-[32px] md:py-[80px]">
       <ImageGrid />
       <h1 className="font-semibold text-3xl text-neutral-900 pt-[48px] pb-[20px]">
         Voyager Hoodie
