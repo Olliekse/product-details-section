@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="min-[375px]:w-[100%] min-[1440px]:w-[1280px] min-[375px]:py-[16px] min-[375px]:px-[16px] min-[768px]:py-[16px] min-[768px]:px-[32px] min-[1440px]:grid min-[1440px]:grid-cols-2">
       <ImageGrid />
-      <div className="min-[1440px]:pl-[32px] min-[1440px]:py-[96px]">
-        <h1 className="font-semibold text-3xl text-neutral-900 pt-[48px] pb-[20px] min-[1440px]:text-font-semibold min-[1440px]:text-5xl min-[1440px]:pt-[0]">
+      <div className="min-[1440px]:pl-[32px] min-[1440px]:py-[96px] min-[375px]:px-[16px]">
+        <h1 className="font-semibold text-3xl text-neutral-900 pb-[20px] min-[1440px]:text-font-semibold min-[1440px]:text-5xl min-[1440px]:pt-[0]">
           Voyager Hoodie
         </h1>
         <Pricing />
