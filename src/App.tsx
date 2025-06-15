@@ -17,7 +17,7 @@ function App() {
           Voyager Hoodie
         </h1>
         <Pricing />
-        <StarRating />
+        <StarRating rating={4.1} />
         <p className="text-neutral-600 pb-[32px]">
           The Voyager Hoodie is for the explorer at heart. Its durable fabric
           and roomy pockets are perfect for those who are always searching for
